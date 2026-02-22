@@ -1,0 +1,7 @@
+Name                 | Average         | Min             | Max             | Call       |
+New                  | 13798.84     ns | 9300.00      ns | 1055300.00   ns | 999996     |
+Delete               | 7933.96      ns | 5300.00      ns | 360600.00    ns | 999996     |
+StackPop             | 1395.36      ns | 1100.00      ns | 295500.00    ns | 999996     |
+StackPush            | 1263.49      ns | 900.00       ns | 327600.00    ns | 999996     |
+QueuePop             | 1643.71      ns | 1400.00      ns | 152200.00    ns | 999996     |
+QueuePush            | 1266.87      ns | 1100.00      ns | 126200.00    ns | 999996     |
