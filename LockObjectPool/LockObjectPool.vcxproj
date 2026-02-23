@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{623eee1d-d3eb-483d-bef3-dc980cc94b2a}</ProjectGuid>
-    <RootNamespace>TLSObjectPool</RootNamespace>
+    <ProjectGuid>{ed0d9cb0-4f22-48a0-befc-a53659345243}</ProjectGuid>
+    <RootNamespace>LockObjectPool</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -90,7 +90,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -119,7 +118,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <Optimization>Disabled</Optimization>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -134,8 +132,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LockGuard.h" />
-    <ClInclude Include="TLSBucketObjectPool.h" />
-    <ClInclude Include="TLSObjectPool.h" />
+    <ClInclude Include="LockQueueObjectPool.h" />
+    <ClInclude Include="LockStackObjectPool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
